@@ -294,7 +294,7 @@ character_config:
             # Check out doc at https://github.com/rany2/edge-tts
             # Use `edge-tts --list-voices` to list all available voices
             voice:
-                "en-US-AvaMultilingualNeural" # 'en-US-AvaMultilingualNeural' #'zh-CN-XiaoxiaoNeural' # 'ja-JP-NanamiNeural'
+                "en-HK-YanNeural" # 'en-US-AvaMultilingualNeural' #'zh-CN-XiaoxiaoNeural' # 'ja-JP-NanamiNeural'
 
 
                 # pyttsx3_tts doesn't have any config.
