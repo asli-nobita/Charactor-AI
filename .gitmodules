@@ -1,4 +1,3 @@
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/Open-LLM-VTuber/Open-LLM-VTuber-Web
-	branch = build
+	url = https://github.com/asli-nobita/Edunime-AI-Frontend
