@@ -5,6 +5,9 @@
 
 > :warning: This project is in its early stages and is currently under **active development**.
 
+Link for frontend repository: [Edunime-frontend](https://github.com/asli-nobita/Edunime-AI-Frontend)
+same as Open-LLM Vtuber repository, forgot to upload.
+
 ## ⭐️ What is this project?
 
 ![](https://github.com/asli-nobita/Charactor-AI/blob/main/assets/Screenshot%20from%202025-03-22%2016-51-59.png)
@@ -35,10 +38,11 @@ We first tried integrating AstraMindAI, a Text-to-Speech model based on XTTS2-GP
 So, We moved to another open-source model called Fish. First, we used Triton accelerator, but it was giving issues and not working, we found that it was made for Linux library and often gives issues while running on Windows. So, we reconfigured my virtual environment without using the Triton library. Then, it ran on the CPU, and its compute time was around 2 minutes and 30 seconds for 2 sentences. We found it excessive, so we installed Cuda libraries and torch for Cuda, and after integrating the GPU, we brought the same compute time down to 27 sec. But, we were unable to use our laptops as host, so we went with **Edge-TTS**.
 
 Future Scope:
-- More characters can be added, which can cater to different student preferences.
-- A feature can be added to improve the character's animations to boost user engagement and immersion. 
-- Improve the knowledge base, and improve factual correctness and relevance.
-- Language support for other languages to widen the audience that can access.
+
+-   More characters can be added, which can cater to different student preferences.
+-   A feature can be added to improve the character's animations to boost user engagement and immersion.
+-   Improve the knowledge base, and improve factual correctness and relevance.
+-   Language support for other languages to widen the audience that can access.
 
 ## ✨ Features & Highlights
 
