@@ -1,5 +1,3 @@
-![](./assets/banner.jpg)
-
 <h1 align="center">Edunime</h1>
 <h3 align="center">
 
