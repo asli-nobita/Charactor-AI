@@ -129,7 +129,7 @@ class ServiceContext:
         self.init_live2d(config.character_config.live2d_model_name)
 
         # init asr from character config
-        self.init_asr(config.character_config.asr_config)
+        # self.init_asr(config.character_config.asr_config)
 
         # init tts from character config
         self.init_tts(config.character_config.tts_config)
