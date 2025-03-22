@@ -51,18 +51,6 @@ Language support for other languages to widen the audience that can access.
 
 -   💻 **Attractive and powerful web and desktop clients**: Offers both web version and desktop client usage modes, supporting rich interactive features and personalization settings. The desktop client can switch freely between window mode and desktop pet mode, allowing the AI companion to be by your side at all times.
 
--   🎯 **Advanced interaction features**:
-
-    -   👁️ Visual perception, supporting camera, screen recording and screenshots, allowing your AI companion to see you and your screen
-    -   🎤 Voice interruption without headphones (AI won't hear its own voice)
-    -   🫱 Touch feedback, interact with your AI companion through clicks or drags
-    -   😊 Live2D expressions, set emotion mapping to control model expressions from the backend
-    -   🐱 Pet mode, supporting transparent background, global top-most, and mouse click-through - drag your AI companion anywhere on the screen
-    -   💭 Display AI's inner thoughts, allowing you to see AI's expressions, thoughts and actions without them being spoken
-    -   🗣️ AI proactive speaking feature
-    -   💾 Chat log persistence, switch to previous conversations anytime
-    -   🌍 TTS translation support (e.g., chat in Chinese while AI uses Japanese voice)
-
 -   🧠 **Extensive model support**:
 
     -   🤖 Large Language Models (LLM): Ollama, OpenAI (and any OpenAI-compatible API), Gemini, Claude, Mistral, DeepSeek, Zhipu AI, GGUF, LM Studio, vLLM, etc.
@@ -74,11 +62,3 @@ Language support for other languages to widen the audience that can access.
     -   🎨 **Character customization**: Import custom Live2D models to give your AI companion a unique appearance. Shape your AI companion's persona by modifying the Prompt. Perform voice cloning to give your AI companion the voice you desire
     -   🧩 **Flexible Agent implementation**: Inherit and implement the Agent interface to integrate any Agent architecture, such as HumeAI EVI, OpenAI Her, Mem0, etc.
     -   🔌 **Good extensibility**: Modular design allows you to easily add your own LLM, ASR, TTS, and other module implementations, extending new features at any time
-
-## 😢 Uninstall
-
-Most files, including Python dependencies and models, are stored in the project folder.
-
-However, models downloaded via ModelScope or Hugging Face may also be in `MODELSCOPE_CACHE` or `HF_HOME`. While we aim to keep them in the project's `models` directory, it's good to double-check.
-
-Review the installation guide for any extra tools you no longer need, such as `uv`, `ffmpeg`, or `deeplx`.
