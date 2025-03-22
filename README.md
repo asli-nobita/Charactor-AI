@@ -9,6 +9,8 @@
 
 ## ⭐️ What is this project?
 
+![](https://github.com/asli-nobita/Charactor-AI/blob/main/assets/Screenshot%20from%202025-03-22%2016-51-59.png)
+
 **Edunime** is a unique **voice-interactive AI companion** that not only supports **real-time voice conversations** and **visual perception** but also features a lively **Live2D avatar**. All functionalities can run completely offline on your computer!
 
 You can treat it as your personal AI companion — whether you want a `Naruto`, `Batman` or any other character, it can meet your expectations. The project fully supports `Windows`, `macOS`, and `Linux`, and offers two usage modes: web version and desktop client (with special support for **transparent background desktop pet mode**, allowing the AI companion to accompany you anywhere on your screen).
@@ -38,10 +40,6 @@ Future Scope:
 More characters can be added, which can cater to different student preferences.
 A feature can be added to improve the character's animations to immersify the user, improve the knowledge base, and improve factual correctness and relevance.
 Language support for other languages to widen the audience that can access.
-
-### 👀 Demo
-
-![](https://github.com/asli-nobita/Charactor-AI/blob/main/assets/Screenshot%20from%202025-03-22%2016-51-59.png)
 
 ## ✨ Features & Highlights
 
