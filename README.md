@@ -5,8 +5,6 @@
 
 > :warning: This project is in its early stages and is currently under **active development**.
 
-> :warning: If you want to run the server remotely and access it on a different machine, such as running the server on your computer and access it on your phone, you will need to configure `https`, because the microphone on the front end will only launch in a secure context (a.k.a. https or localhost). See [MDN Web Doc](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia). Therefore, you should configure https with a reverse proxy to access the page on a remote machine (non-localhost).
-
 ## ⭐️ What is this project?
 
 ![](https://github.com/asli-nobita/Charactor-AI/blob/main/assets/Screenshot%20from%202025-03-22%2016-51-59.png)
@@ -29,17 +27,18 @@ So, we first used Open LLM Vtuber as a base to create the UI for the character i
 
 One of the important issues we faced was the integration of Live2D characters with Open LLM Vtuber. Even after properly following the documentation we were not able to add Naruto Live2D. The issue seems to be with the texture of the character. After recreating the Live2D model’s texture the issue was fixed.
 
-The API call for the LLM we are using is Deepseek. The prompt engineering was fairly simple, and with a clear instruction set, it performed very well on the given tasks.
+The API call for the LLM we are using is **Gemini 2.0 Flash Exp**. The prompt engineering was fairly simple, and with a clear instruction set, it performed very well on the given tasks.
 
 Voice of character
 One of the difficulties, we faced was reproducing the voice of Naruto, the online tools which were available were unable to produce a decent output, and even the ones which were paid didn’t give a workable output.
-I first tried integrating AstraMindAI, a Text-to-Speech model based on XTTS2-GPT, which is open source. Its voice was good, but not up to the mark.
-So, I moved to another open-source model called Fish. First, I used Triton accelerator, but it was giving issues and not working, I found that it was made for Linux library and often gives issues while running on Windows. So, I reconfigured my virtual environment without using the Triton library. Then, it ran on the CPU, and its compute time was around 2 minutes and 30 seconds for 2 sentences. We found it excessive, so we installed Cuda libraries and torch for Cuda, and after integrating the GPU, we brought the same compute time down to 27 sec. But, we were unable to use my laptop as a host, so we went with XTTS2-GPT API. but there were some implementation issues, so we went with stock audio.
+We first tried integrating AstraMindAI, a Text-to-Speech model based on XTTS2-GPT, which is open source. Its voice was good, but not up to the mark.
+So, We moved to another open-source model called Fish. First, we used Triton accelerator, but it was giving issues and not working, we found that it was made for Linux library and often gives issues while running on Windows. So, we reconfigured my virtual environment without using the Triton library. Then, it ran on the CPU, and its compute time was around 2 minutes and 30 seconds for 2 sentences. We found it excessive, so we installed Cuda libraries and torch for Cuda, and after integrating the GPU, we brought the same compute time down to 27 sec. But, we were unable to use our laptops as host, so we went with **Edge-TTS**.
 
 Future Scope:
-More characters can be added, which can cater to different student preferences.
-A feature can be added to improve the character's animations to immersify the user, improve the knowledge base, and improve factual correctness and relevance.
-Language support for other languages to widen the audience that can access.
+- More characters can be added, which can cater to different student preferences.
+- A feature can be added to improve the character's animations to boost user engagement and immersion. 
+- Improve the knowledge base, and improve factual correctness and relevance.
+- Language support for other languages to widen the audience that can access.
 
 ## ✨ Features & Highlights
 
