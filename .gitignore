@@ -68,3 +68,4 @@ mem.json
 conf.yaml.backup
 
 *.exe
+.vercel
