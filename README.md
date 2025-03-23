@@ -50,19 +50,19 @@ We used OpenLLM Vtuber as a base and built upon that because we wanted to use fr
 ## How to run locally
 
 1. Clone both repositories (Charactor-AI and Edunime-AI-Frontend).  
-   `git clone https://github.com/asli-nobita/Charactor-AI.git`  
+   `git clone https://github.com/asli-nobita/Charactor-AI.git`
    `git clone https://github.com/asli-nobita/Edunime-AI-Frontend.git`
 
 2. Navigate to the root directory `Charactor-AI` and run  
    `pip install .`
 
-3. In the same directory, execute  
+3. In the same directory, execute
    `python run_server.py`
 
 4. Navigate to the frontend directory and run this command  
-   `npm install && npm run dev`  
+   `npm install && npm run dev`
    The application should start as an Electron desktop app.
 
-### Demo
+### Demo video
 
 [![Video Thumbnail](https://img.youtube.com/vi/qAW1GG19-Og/0.jpg)](https://www.youtube.com/watch?v=qAW1GG19-Og)
