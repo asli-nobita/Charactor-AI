@@ -16,8 +16,9 @@ same as Open-LLM Vtuber repository.
 
 You can treat it as your personal AI companion — whether you want a `Naruto`, `Batman` or any other character, it can meet your expectations. The project fully supports `Windows`, `macOS`, and `Linux`.
 
-### What we did: 
-We used OpenLLM Vtuber as a front end for our Naruto avatar, which we modelled. We did the prompt engineering for the LLM we used. We used Gemini Flash 2.0 Exp for API calls. We used the Edge-TTS model for text-to-speech conversion. 
+### What we did:
+
+We used OpenLLM Vtuber as a front end for our Naruto avatar, which we modelled. We did the prompt engineering for the LLM we used. We used Gemini Flash 2.0 Exp for API calls. We used the Edge-TTS model for text-to-speech conversion.
 This is an end product which can be used to interact with Naruto Uzumaki, a famous anime character.
 
 ### Relevance to problem statement
@@ -44,4 +45,20 @@ Future Scope:
 -   Improve the knowledge base, and improve factual correctness and relevance.
 -   Language support for other languages to widen the audience that can access.
 
-We used  OpenLLM Vtuber as a base and built upon that because we wanted to use front-end compatibilities. Hence, the number of contributors and extra files which may not be used in this project.
+We used OpenLLM Vtuber as a base and built upon that because we wanted to use front-end compatibilities. Hence, the number of contributors and extra files which may not be used in this project.
+
+## How to run locally
+
+1. Clone both repositories (Charactor-AI and Edunime-AI-Frontend).  
+   `git clone https://github.com/asli-nobita/Charactor-AI.git`
+   `git clone https://github.com/asli-nobita/Edunime-AI-Frontend.git`
+
+2. Navigate to the root directory `Charactor-AI` and run  
+   `pip install .`
+
+3. In the same directory, execute
+   `python run_server.py`
+
+4. Navigate to the frontend directory and run this command  
+   `npm install && npm run dev`
+   The application should start as an Electron desktop app.
