@@ -6,7 +6,7 @@
 > :warning: This project is in its early stages and is currently under **active development**.
 
 Link for frontend repository: [Edunime-frontend](https://github.com/asli-nobita/Edunime-AI-Frontend)
-same as Open-LLM Vtuber repository.
+.
 
 ## ⭐️ What is this project?
 
@@ -31,12 +31,15 @@ So, we first used Open LLM Vtuber as a base to create the UI for the character i
 
 One of the important issues we faced was the integration of Live2D characters with Open LLM Vtuber. Even after properly following the documentation we were not able to add Naruto Live2D. The issue seems to be with the texture of the character. After recreating the Live2D model’s texture the issue was fixed.
 
-The API call for the LLM we are using is **Gemini 2.0 Flash Exp**. The prompt engineering was fairly simple, and with a clear instruction set, it performed very well on the given tasks.
+The API call for the LLM we are using is **Gemini 2.0 Flash Exp**. We tried several LLMs like Deepseek and GPT-4, and found Gemini to give well thought-out responses. The prompt engineering was fairly simple, and with a clear instruction set, it performed very well on the given tasks.
 
-Voice of character
+Voice of character  
 One of the difficulties, we faced was reproducing the voice of Naruto, the online tools which were available were unable to produce a decent output, and even the ones which were paid didn’t give a workable output.
 We first tried integrating AstraMindAI, a Text-to-Speech model based on XTTS2-GPT, which is open source. Its voice was good, but not up to the mark.
 So, We moved to another open-source model called Fish. First, we used Triton accelerator, but it was giving issues and not working, we found that it was made for Linux library and often gives issues while running on Windows. So, we reconfigured my virtual environment without using the Triton library. Then, it ran on the CPU, and its compute time was around 2 minutes and 30 seconds for 2 sentences. We found it excessive, so we installed Cuda libraries and torch for Cuda, and after integrating the GPU, we brought the same compute time down to 27 sec. But, we were unable to use our laptops as host, so we went with **Edge-TTS**.
+
+**Deployment**:  
+We tried deploying the model on a remote hosting service, Render. Our aim was to completely separate the client-side frontend from the backend and enable it to function as a static web application. We could get the backend running on Render, however since the project is primarily made as a Electron app, there were difficulties in setting up WebSocket connections. We are actively working on this.
 
 Future Scope:
 
