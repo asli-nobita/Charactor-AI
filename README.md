@@ -53,15 +53,22 @@ We used OpenLLM Vtuber as a base and built upon that because we wanted to use fr
    `git clone https://github.com/asli-nobita/Charactor-AI.git`  
    `git clone https://github.com/asli-nobita/Edunime-AI-Frontend.git`
 
-2. Navigate to the root directory `Charactor-AI` and run  
+2. Install FFMpeg for Windows  
+   `winget install ffmpeg`
+
+3. Create and run a Python virtual environment  
+   `python -m venv <name of virtual environment>`
+   `<name of virtual environment>/scripts/activate`
+
+4. Navigate to the root directory `Charactor-AI` and run  
    `pip install .`
 
-3. In the same directory, execute  
+5. In the same directory, execute  
    `python run_server.py`
 
-4. Navigate to the frontend directory and run this command  
-   `npm install && npm run dev`  
-   The application should start as an Electron desktop app.
+6. Navigate to the frontend directory and run this command (open a new terminal for this)
+   `npm install && npm run dev:web`  
+   The application should start in your web browser.
 
 ### Demo video (click on the image)
 
