@@ -1,17 +1,17 @@
 # ignore the user configuration file
 # conf.yaml
 
-# ignore non-default background images
-/backgrounds/*
+# # ignore non-default background images
+# /backgrounds/*
 
 
 
-# ignore non-default character configs
-/characters/*
-# but all of the defaults are already tracked, so no need to un-ignore them
+# # ignore non-default character configs
+# /characters/*
+# # but all of the defaults are already tracked, so no need to un-ignore them
 
-# ignore avatars
-avatars/*
+# # ignore avatars
+# avatars/*
 
 # macOS system files
 .DS_Store
