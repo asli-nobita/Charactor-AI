@@ -1,0 +1,20 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "naruto.moc3",
+		"Textures": ["naruto.1024/texture_00.png"],
+		"DisplayInfo": "naruto.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		}
+	]
+}
