@@ -6,7 +6,7 @@
 > :warning: This project is in its early stages and is currently under **active development**.
 
 Link for frontend repository: [Edunime-frontend](https://github.com/asli-nobita/Edunime-AI-Frontend)
-same as Open-LLM Vtuber repository, forgot to upload.
+same as Open-LLM Vtuber repository.
 
 ## ⭐️ What is this project?
 
@@ -14,11 +14,11 @@ same as Open-LLM Vtuber repository, forgot to upload.
 
 **Edunime** is a unique **voice-interactive AI companion** that not only supports **real-time voice conversations** and **visual perception** but also features a lively **Live2D avatar**. All functionalities can run completely offline on your computer!
 
-You can treat it as your personal AI companion — whether you want a `Naruto`, `Batman` or any other character, it can meet your expectations. The project fully supports `Windows`, `macOS`, and `Linux`, and offers two usage modes: web version and desktop client (with special support for **transparent background desktop pet mode**, allowing the AI companion to accompany you anywhere on your screen).
+You can treat it as your personal AI companion — whether you want a `Naruto`, `Batman` or any other character, it can meet your expectations. The project fully supports `Windows`, `macOS`, and `Linux`.
 
-Although the long-term memory feature is temporarily removed (coming back soon), thanks to the persistent storage of chat logs, you can always continue your previous unfinished conversations without losing any precious interactive moments.
-
-In terms of backend support, we have integrated a rich variety of LLM inference, text-to-speech, and speech recognition solutions. If you want to customize your AI companion, you can refer to the [Character Customization Guide](https://open-llm-vtuber.github.io/docs/user-guide/live2d) to customize your AI companion's appearance and persona.
+### What we did: 
+We used OpenLLM Vtuber as a front end for our Naruto avatar, which we modelled. We did the prompt engineering for the LLM we used. We used Gemini Flash 2.0 Exp for API calls. We used the Edge-TTS model for text-to-speech conversion. 
+This is an end product which can be used to interact with Naruto Uzumaki, a famous anime character.
 
 ### Relevance to problem statement
 
@@ -44,22 +44,4 @@ Future Scope:
 -   Improve the knowledge base, and improve factual correctness and relevance.
 -   Language support for other languages to widen the audience that can access.
 
-## ✨ Features & Highlights
-
--   🖥️ **Cross-platform support**: Perfect compatibility with macOS, Linux, and Windows. We support NVIDIA and non-NVIDIA GPUs, with options to run on CPU or use cloud APIs for resource-intensive tasks. Some components support GPU acceleration on macOS.
-
--   🔒 **Offline mode support**: Run completely offline using local models - no internet required. Your conversations stay on your device, ensuring privacy and security.
-
--   💻 **Attractive and powerful web and desktop clients**: Offers both web version and desktop client usage modes, supporting rich interactive features and personalization settings. The desktop client can switch freely between window mode and desktop pet mode, allowing the AI companion to be by your side at all times.
-
--   🧠 **Extensive model support**:
-
-    -   🤖 Large Language Models (LLM): Ollama, OpenAI (and any OpenAI-compatible API), Gemini, Claude, Mistral, DeepSeek, Zhipu AI, GGUF, LM Studio, vLLM, etc.
-    -   🎙️ Automatic Speech Recognition (ASR): sherpa-onnx, FunASR, Faster-Whisper, Whisper.cpp, Whisper, Groq Whisper, Azure ASR, etc.
-    -   🔊 Text-to-Speech (TTS): sherpa-onnx, pyttsx3, MeloTTS, Coqui-TTS, GPTSoVITS, Bark, CosyVoice, Edge TTS, Fish Audio, Azure TTS, etc.
-
--   🔧 **Highly customizable**:
-    -   ⚙️ **Simple module configuration**: Switch various functional modules through simple configuration file modifications, without delving into the code
-    -   🎨 **Character customization**: Import custom Live2D models to give your AI companion a unique appearance. Shape your AI companion's persona by modifying the Prompt. Perform voice cloning to give your AI companion the voice you desire
-    -   🧩 **Flexible Agent implementation**: Inherit and implement the Agent interface to integrate any Agent architecture, such as HumeAI EVI, OpenAI Her, Mem0, etc.
-    -   🔌 **Good extensibility**: Modular design allows you to easily add your own LLM, ASR, TTS, and other module implementations, extending new features at any time
+We used  OpenLLM Vtuber as a base and built upon that because we wanted to use front-end compatibilities. Hence, the number of contributors and extra files which may not be used in this project.
