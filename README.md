@@ -63,6 +63,6 @@ We used OpenLLM Vtuber as a base and built upon that because we wanted to use fr
    `npm install && npm run dev`
    The application should start as an Electron desktop app.
 
-### Demo video
+### Demo video (click on the image)
 
 [![Video Thumbnail](https://img.youtube.com/vi/qAW1GG19-Og/0.jpg)](https://www.youtube.com/watch?v=qAW1GG19-Og)
