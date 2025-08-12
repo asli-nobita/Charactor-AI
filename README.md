@@ -3,7 +3,7 @@
 
 </h3>
 
-> :warning: This project is in its early stages and is currently under **active development**.
+> :warning: This project is in its early stages and is currently under **active development** and we are working on it.
 
 Link for frontend repository: [Edunime-frontend](https://github.com/asli-nobita/Edunime-AI-Frontend)
 .
